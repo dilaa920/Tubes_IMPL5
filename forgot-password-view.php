@@ -53,7 +53,8 @@
 
 </head>
 
-<div class="limiter">
+<body>
+	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
@@ -87,7 +88,6 @@
 					</div>
 
 					<div class="text-center p-t-136">
-
 					</div>
 				</form>
 			</div>
