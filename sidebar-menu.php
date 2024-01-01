@@ -300,21 +300,6 @@ if ($_SESSION['hak_akses']=='Super Admin') { ?>
     </li>
     <?php
 	}
-
-	// jika menu ubah password dipilih, menu ubah password aktif
-	if ($_GET["module"]=="password") { ?>
-    <li class="active">
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
-    </li>
-    <?php
-	}
-	// jika tidak, menu ubah password tidak aktif
-	else { ?>
-    <li>
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
-    </li>
-    <?php
-	}
 	?>
 </ul>
 <!--sidebar menu end-->
@@ -607,20 +592,6 @@ else if ($_SESSION['hak_akses']=='Manajer') { ?>
     </li>
     <?php
   }
-	// jika menu ubah password dipilih, menu ubah password aktif
-	if ($_GET["module"]=="password") { ?>
-    <li class="active">
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
-    </li>
-    <?php
-	}
-	// jika tidak, menu ubah password tidak aktif
-	else { ?>
-    <li>
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
-    </li>
-    <?php
-	}
 	?>
 </ul>
 <!--sidebar menu end-->
@@ -763,24 +734,6 @@ if ($_SESSION['hak_akses']=='Gudang') { ?>
             <li><a href="?module=lap_barang_masuk"><i class="fa fa-circle-o"></i> Barang Masuk </a></li>
             <li><a href="?module=lap_barang_keluar"><i class="fa fa-circle-o"></i> Barang Keluar </a></li>
         </ul>
-    </li>
-    <?php
-	}
-
-   
-
-
-	// jika menu ubah password dipilih, menu ubah password aktif
-	if ($_GET["module"]=="password") { ?>
-    <li class="active">
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
-    </li>
-    <?php
-	}
-	// jika tidak, menu ubah password tidak aktif
-	else { ?>
-    <li>
-        <a href="?module=password"><i class="fa fa-lock"></i> Ubah Password</a>
     </li>
     <?php
 	}

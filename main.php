@@ -115,7 +115,7 @@
         </div><!-- /.content-wrapper -->
 
         <footer class="main-footer">
-            <strong>Copyright &copy; 2023 - <a href="#">Aplikasi Management Gudang
+            <strong>Copyright &copy; 2024 - <a href="#">Aplikasi Management Gudang
                     Konveksi</a>.</strong>
         </footer>
     </div><!-- ./wrapper -->
