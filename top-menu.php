@@ -51,11 +51,7 @@ $data = mysqli_fetch_assoc($query);
     
     <!-- Menu Footer-->
     <li class="user-footer">
-      <div class="pull-left">
-        <a style="width:80px" href="?module=profil" class="btn btn-default btn-flat">Profil</a>
-      </div>
-
-      <div class="pull-right">
+      <div class="center">
         <a style="width:80px" data-toggle="modal" href="#logout" class="btn btn-default btn-flat">Logout</a>
       </div>
     </li>
